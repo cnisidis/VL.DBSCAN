@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <LangVersion>7.2</LangVersion>
+    <TargetFramework>net8</TargetFramework>
+    
     <Configurations>Debug;Release;VL</Configurations>
   </PropertyGroup>
 
@@ -16,8 +16,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DBSCAN" Version="2.0.12" />
-    <PackageReference Include="Stride.Core.Mathematics" Version="4.0.0.1-beta04-1265" />
+    <PackageReference Include="DBSCAN" Version="3.0.0" />
+    <PackageReference Include="VL.Core" Version="2025.7.1" />
   </ItemGroup>
 
 </Project>
